@@ -1,0 +1,31 @@
+body {
+    background-image: "hot.jpg";
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    font-size: 3rem;
+}
+.Box1 {
+    position: relative;
+    left: 40px;
+    right: 80px;
+    background-color: red;
+    color:white;
+    font-size: 1rem;
+}
+.Box2 {
+    position: relative;
+    left: 80px;
+    right: 40px;
+    background-color: red;
+    color: white;
+    font-size:1rem;
+
+}
+.Box3 left_part{
+    position:relative;
+    left:40px;
+    right:40px;
+    font-size:12px;
+    background-color: black;
+}
