@@ -1,31 +1,50 @@
 body {
-    background-image: "hot.jpg";
 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-family:"Spirax", sans-serif;
     color: red;
     font-size: 3rem;
 }
-.Box1 {
+main {
     position: relative;
-    left: 40px;
-    right: 80px;
+    margin:0 auto;
+}
+.content {
+    display:flex;
+    flex-direction: column;
+    padding:15rem;
+
+    
+}
+.Box1 {
+    
+    align-self: flex-start;
+padding: 0 3rem;
     background-color: red;
     color:white;
     font-size: 1rem;
 }
 .Box2 {
-    position: relative;
-    left: 80px;
-    right: 40px;
+    
+align-self: flex-end;
+padding: 0 3rem;
+    
     background-color: red;
     color: white;
     font-size:1rem;
 
 }
-.Box3 left_part{
-    position:relative;
-    left:40px;
-    right:40px;
+.Box3 {
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    align-self: center;
+    margin: 0 auto;
+padding:1rem;
     font-size:12px;
     background-color: black;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
 }
