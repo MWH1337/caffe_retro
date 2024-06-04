@@ -9,6 +9,23 @@ main {
     position: relative;
     margin:0 auto;
 }
+
+main.hot {
+    background-image: url('hot.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+main.juicy {
+    background-image: url('juicy.jpg');
+    background-position: center;
+    background-size: cover;
+}
+main.cosy {
+    background-image: url('cosy.jpg');
+    background-position: center;
+    background-size: cover;
+}
 .content {
     display:flex;
     flex-direction: column;
